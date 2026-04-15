@@ -8,10 +8,6 @@ return {
 			},
 		},
 	},
-	--xd
-	{
-		"eandrju/cellular-automaton.nvim",
-	},
 	{
 		"williamboman/mason.nvim",
 		config = function()
