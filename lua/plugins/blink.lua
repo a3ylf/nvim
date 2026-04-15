@@ -8,6 +8,9 @@ return {
     ---@module 'blink.cmp'
     ---@type blink.cmp.Config
     opts = {
+        cmdline = {
+            enabled = true
+        },
         keymap = {
             preset = "default",
             ["<Tab>"] = { "select_next", "fallback" },
